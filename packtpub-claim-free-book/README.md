@@ -21,7 +21,7 @@ In the very first time you execute it, you need to provide your packtpub's crede
 ```sh
 $ java -jar /sources/packtpub-claim-free-book/target/packtpub-claim-free-book-1.0-SNAPSHOT-jar-with-dependencies.jar 
 Properties File not foud. Please supply the username and password.
-java -jar -Dcredentials=myemail@example.com:myPassword packtpub-claim-free-book.jar
+java -jar -Dcredentials=myemail@example.com:myPassword packtpub-claim-free-book-1.0-SNAPSHOT-jar-with-dependencies.jar
 ```
 
 To provide your credentials just use the **credentials** System Property, example:

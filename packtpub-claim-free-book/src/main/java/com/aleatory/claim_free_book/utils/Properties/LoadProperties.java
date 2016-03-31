@@ -60,7 +60,7 @@ public class LoadProperties {
 
         if (CREDENTIALS.isEmpty()) {
             System.out.println("Properties File not foud. Please supply the username and password.");
-            System.out.println("java -jar -Dcredentials=myemail@example.com:myPassword packtpub-claim-free-book.jar");
+            System.out.println("java -jar -Dcredentials=myemail@example.com:myPassword packtpub-claim-free-book-1.0-SNAPSHOT-jar-with-dependencies.jar");
             System.exit(0);
 
         } else {
