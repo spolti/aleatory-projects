@@ -1,3 +1,6 @@
+Como usar: http://www.hrstatus.com.br/2012/11/encriptando-system-properties-passwords-no-weblogic/
+
+
 EncryptSystemProperties
 =======================
 
