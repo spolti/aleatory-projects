@@ -27,6 +27,7 @@ public class TestServletJDGCache extends HttpServlet {
         Configuration conf = new ConfigurationBuilder().addServer().host(host).port(port).build();
         RemoteCacheManager manager = new RemoteCacheManager(conf);
         RemoteCache cache = manager.getCache();
+
         char[] data = new char[1000000];
         int index = 0;
         while (true) {
