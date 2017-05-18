@@ -11,7 +11,7 @@ import java.io.IOException;
  * Created by fspolti on 5/17/17.
  */
 @WebServlet(urlPatterns = { "/oom-thread" })
-public class TestServlet2 extends HttpServlet {
+public class TestServlet2OOMThread extends HttpServlet {
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         throw new OutOfMemoryError("OOM");
     }

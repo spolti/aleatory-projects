@@ -11,7 +11,7 @@ import java.io.IOException;
  * Created by fspolti on 5/17/17.
  */
 @WebServlet(urlPatterns = {"/oom-jvm"})
-public class TestServlet extends HttpServlet {
+public class TestServletOOMJvm extends HttpServlet {
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         while (true) {
             Thread thread = new Thread(new Runnable() {
