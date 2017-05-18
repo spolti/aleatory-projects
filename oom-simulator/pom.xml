@@ -41,6 +41,14 @@
             <artifactId>infinispan-remote</artifactId>
         </dependency>
 
+
+        <dependency>
+            <groupId>javax.cache</groupId>
+            <artifactId>cache-api</artifactId>
+            <version>1.0.0</version>
+        </dependency>
+
+
     </dependencies>
 
     <build>
